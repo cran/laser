@@ -1,0 +1,1 @@
+agamids <- scan(file = 'agamids.tre', what = 'character')

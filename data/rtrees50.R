@@ -1,0 +1,1 @@
+rtrees50  <- scan(file = '50RandomTrees.tre', what = list(""))
