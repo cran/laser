@@ -1,0 +1,24 @@
+sp
+Anomalopus	7
+Calyptotis	5
+Coeranoscincus_A	1
+Coeranoscincus_B	1
+Coggeria	1
+Ctenotus	95
+Eremiascincus	2
+Eulamprus_A	1
+Eulamprus_B	5
+Eulamprus_C	6
+Eulamprus_D	2
+Eulamprus_E	1
+Glaphyromorphus_A	8
+Glaphyromorphus_B	4
+Glaphyromorphus_C	1
+Gnypetoscincus	1
+Hemiergis	5
+Lerista	79
+Nangura	1
+Notoscincus	2
+Ophioscincus_A	1
+Ophioscincus_B	2
+Saiphos	1

@@ -9,8 +9,7 @@
 }
 \usage{data(rtrees50)}
 \details{
-  These data can be used to explore \code{\link{fitdAICrc.batch}} and 
-  \code{\link{getBtimes.batch}}
+
 }
 \source{
   Data generated using \emph{Phyl-O-Gen} (\url{http://evolve.zoo.ox.ac.uk/software/PhyloGen/main.html})

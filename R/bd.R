@@ -1,9 +1,5 @@
-### bd
-###
-###  Fit Constant Rate Birth-Death Model to Set of Branching Times
-###
-
-bd <- function(x, ai = c(0.1, 0.5, 0.9)) #new 'optim' version, 6.4.06
+`bd` <-
+function(x, ai = c(0.1, 0.5, 0.9)) 
 {
   N <- length(x)+1
   b <- sort(x)
@@ -41,11 +37,7 @@ bd <- function(x, ai = c(0.1, 0.5, 0.9)) #new 'optim' version, 6.4.06
     }
   }
   res$aic <- (-2*res$LH) + 4
-  cat("----------------------------\n")
-  cat("Model: bd (rate-constant)\n\n")
-  cat("Log-likelihood and parameters:\nLH:", res$LH, "\n")
-  cat("AIC:", res$aic, "\nr = (S - E) =", res$r1, "\n")
-  cat("a = (E/S) =", res$a, "\n\n")
   return(res)
 
 }
+

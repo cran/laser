@@ -10,6 +10,22 @@
 \alias{Iyule2rate}
 \alias{Iyule3rate}
 \alias{checkbasal}
+\alias{getLambda.internal}
+\alias{splitEdgeMatrix}
+\alias{gsr}
+\alias{node.sons}
+\alias{getLikelihood.EXVAR}
+\alias{getLikelihood.SPVAR}
+\alias{getLikelihood.BOTHVAR}
+\alias{pTt.BOTHVAR}
+\alias{pTt.EXVAR}
+\alias{pTt.SPVAR}
+\alias{rhoFxn.BOTHVAR}
+\alias{rhoFxn.SPVAR}
+\alias{rhoFxn.EXVAR}
+\alias{muFx}
+\alias{lambdaFx}
+\alias{getSpeciationtimes}
 
 
 

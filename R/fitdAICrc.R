@@ -1,10 +1,5 @@
-
-### fitdAICrc
-###
-### Fit a Candidate Set of Models to Branching Times and Calculate dAICrc Statistic
-###
-
-fitdAICrc <- function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate", "rvbd"), ints = NULL)
+`fitdAICrc` <-
+function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate", "rvbd"), ints = NULL)
 {
   checkbasal(x)
   if (!is.numeric(x)) stop("object x not of class 'numeric'")
@@ -96,10 +91,10 @@ fitdAICrc <- function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rat
     cat("MODEL", res$model[i], "\n\nParameters: ", res$params[i], "\n\n")
     for (j in 1:length(pvec))
     {
-    if (!is.na(eval(parse(text = paste("res$", pvec[j], "[i]", sep = "")))))
+     if (!is.na(eval(parse(text = paste("res$", pvec[j], "[i]", sep = "")))))
         cat(pvec[j], eval(parse(text = paste("res$", pvec[j], "[i]", sep = ""))), "\n\n")
 
-   }
+    }
     cat("\n--------------------------\n")
 
   }
@@ -111,4 +106,4 @@ fitdAICrc <- function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rat
   return(res)
 
 }
-######
+

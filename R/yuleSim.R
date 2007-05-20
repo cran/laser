@@ -1,4 +1,4 @@
-"yuleSim" <-
+`yuleSim` <-
 function(ntaxa, nsets, lambda = 0.01)
 {
     rmat <- matrix(0, nsets, (ntaxa-1))

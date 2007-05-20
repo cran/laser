@@ -21,10 +21,8 @@ plotLtt(x)
 
 \examples{
 
-data("plethodon")
-pleth.btimes <- plethodon
-plotLtt(pleth.btimes)
-
+data(warblers)
+plotLtt(warblers);
 }
 \keyword{ aplot }
 \keyword{ hplot }

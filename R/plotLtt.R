@@ -1,4 +1,5 @@
-plotLtt <- function(x)
+`plotLtt` <-
+function(x)
 {
   if (!is.numeric(x)) stop("object x not of class 'numeric'")
   x <- rev(sort(x))
@@ -11,3 +12,4 @@ plotLtt <- function(x)
     main = "Log-Lineages Through Time")
   print(log(vn+1))
 }
+

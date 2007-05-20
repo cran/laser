@@ -1,9 +1,5 @@
-### rvbd
-###
-### Likelihood of Branching Times Under Birth-Death Model with Rate Shift
-###
-
-rvbd <- function(x, ai = c(0.1, .5, .95), ints = NULL, verbose = FALSE, file = "out_rvbd.txt")
+`rvbd` <-
+function(x, ai = c(0.1, .5, .95), ints = NULL, verbose = FALSE, file = "out_rvbd.txt")
 {
     checkbasal(x)
     if (!is.numeric(x)) stop("object x not of class 'numeric'")
@@ -84,11 +80,8 @@ rvbd <- function(x, ai = c(0.1, .5, .95), ints = NULL, verbose = FALSE, file = "
 
     summ <- rlist[rlist$LH == max(rlist$LH), ]
     summ$aic <- (-2*summ$LH) + 8
-    cat("------------------------\nModel: Rate Variable Birth-Death: r1, r2, a, ts\n")
-    cat("Log-likelihood and parameter estimates\n")
-    cat("LH", summ$LH, "\nAIC", summ$aic, "\nr1", summ$r1, "\nr2", summ$r2, "\na", summ$a, "\nst", summ$st, "\n")
+
 
     return(summ)
 }
 
-#######################################################

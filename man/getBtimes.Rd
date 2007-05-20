@@ -7,12 +7,13 @@
   recent.
 }
 \usage{
-getBtimes(string = NULL, file = NULL)
+getBtimes(file = NULL, string=NULL)
 }
 
 \arguments{
-  \item{string}{  the name of an object containing a 'newick' tree character string}
   \item{file}{  a file containing a single tree in 'newick' (parenthetic) format }
+ \item{string}{  the name of an object containing a 'newick' tree character string}
+
 }
 \details{
   This function requires the package \samp{ape}.  If \samp{ape} has not been 

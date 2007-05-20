@@ -1,12 +1,5 @@
-
-### truncateTree.R
-###
-### Truncate a Set of Branching Times
-###
-### Copyright 2006 Daniel L. Rabosky <DLR32@cornell.edu>
-
-
-truncateTree <- function(x, omit.time = NULL, omit.nodes = NULL, batch = FALSE)
+`truncateTree` <-
+function(x, omit.time = NULL, omit.nodes = NULL, batch = FALSE)
 {
   #takes set of branching times and truncates the set at the cut-point entered
   #by user.  Parameter "omit.time" should correspond to the amount of time
@@ -56,3 +49,4 @@ truncateTree <- function(x, omit.time = NULL, omit.nodes = NULL, batch = FALSE)
   return(xt)
 
 }
+

@@ -1,11 +1,5 @@
-
-
-
-
-### yuleWindow
-###
-###  Fit Yule Model to Temporal Window of Branching Times
-yuleWindow <- function(x, st1 = x[1], st2 = 0)
+`yuleWindow` <-
+function(x, st1 = x[1], st2 = 0)
 {
   checkbasal(x)
   if (!is.numeric(x)) stop("object x not of class 'numeric'")
@@ -30,3 +24,4 @@ yuleWindow <- function(x, st1 = x[1], st2 = 0)
   cat("ML speciation rate: ", res$smax, "\n\nLikelihood: ", res$LH, "\n\n")
   return(res)
 }
+

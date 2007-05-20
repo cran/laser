@@ -68,47 +68,10 @@ diversification rates.  \emph{Evolution} 60:1152-1164.
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
 \note{ 
-The dAICrc statistic described in Rabosky (2006) is one of the most powerful 
-tests of temporal variation in diversification rates and may be the only statistical
-approach that can infer temporal increases in diversification rates.  The approach involves fitting both 
-rate-constant and rate-variable models to a set of branching times.  The statistic dAICrc is the 
-difference in AIC scores between the best-fit rate-constant and best-fit rate-variable models.  
 
-However, several considerations make this approach somewhat computationally intensive.  First, use of the 
-AIC (as well as other model selection criteria, such as the AICc and BIC) result in model overfitting.  Simply
-selecting the model with the lowest AIC criterion results in unacceptably high Type I error rates.  Moreover,
-Type I error rates show a dependency on both the size of the phylogeny under consideration, as well as the 
-number and type of rate-variable models in the candidate set.  It is thus necessary to derive the critical values of the distribution of dAICrc through simulation.      
-
-The approach consists of 3 steps:
-
-1. Analyze the sample phylogeny of N taxa using an appropriate candidate set of rate-variable models
-using the function \code{fitdAICrc}.  Both the \code{pureBirth} and \code{bd} rate-constant models
-must be included in the analysis.
-
-2. Using the program \samp{Phyl-O-Gen}, the function \code{\link{yuleSim}}, or other phylogenetic
-simulation software, generate a set of phylogenetic trees or branching times under the pure birth (Yule)
-model.  Simulated trees should have the same number of tips as the test phylogeny, and should have the same
-level of sampling completeness as the test phylogeny.  
-
-3. Generate a matrix of branching times using \code{\link{getBtimes.batch}} if necessary.  Then run
-\code{\link{fitdAICrc.batch}} on the set of simulated branching times, using the same set of candidate models
-and 'ints' used to analyze the test phylogeny.  \code{\link{fitdAICrc.batch}} will generate the null
-distribution of the dAICrc test statistic under the null hypothesis of rate-constancy and will determine 
-the p-value of the dAICrc index computed for the test phylogeny.
-
-Use of the 'ints' option is recommended.  Although the log-likelihood under the discrete-shift rate-variable
-models will increase with greater numbers of ints, use of large numbers of ints (>200) typically result in very small improvements.  You 
-can explore the effects of different numbers of 'ints' using \code{\link{rvbd}} or the \code{\link{yule-n-rate}} 
-set of functions.  It is recommended that you explore the data in this way before undertaking this analysis; this
-will also give you a sense of the computational time required to fit a given model with different numbers of 'ints'.
-
-In practice, because the significance of dAICrc is assessed through simulation, the actual number of 'ints' is
-not critical.  However, it is of critical importance that you use the same number of 'ints' when analyzing the 
-test phylogeny (using \code{\link{fitdAICrc}}) and the simulated phylogenies (using \code{\link{fitdAICrc.batch}}).  
 
 }
-\seealso{ \code{\link{fitdAICrc.batch}} }
+\seealso{ }
 \examples{
 data(agamids)
 agbtimes <- getBtimes(string = agamids)
@@ -123,8 +86,7 @@ result <- fitdAICrc(agbtimes, modelset = c("pureBirth", "bd",
 # object 'result' is a dataframe containing all parameter estimates, 
 # likelihoods, and AIC scores
 
-#we would still need to generate the null distribution of dAICrc
-#through simulation using fitdAICrc.batch
+
 
 }
 \keyword{ models }
