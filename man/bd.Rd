@@ -47,7 +47,7 @@ Nee, S., R. M. May, and P. H. Harvey.  1994b.  The reconstructed evolutionary pr
 }
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
-\seealso{ \code{\link{pureBirth}}, \code{\link{fitdAICrc}},\code{\link{yule-n-rate}},\code{\link{rvbd}}}
+\seealso{ \code{\link{pureBirth}}, \code{\link{fitdAICrc}},\code{\link{yule-n-rate}}}
 \examples{
   data(plethodon)
   result <- bd(plethodon)  

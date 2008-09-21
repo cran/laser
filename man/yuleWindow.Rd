@@ -50,7 +50,7 @@ Nee, S.  2001.  Inferring speciation rates from phylogenies.
   as (- 2 * (sum of log-likelihoods) + 4)). 
 
 }
-\seealso{ \code{\link{fitdAICrc}}, \code{\link{pureBirth}}, \code{\link{rvbd}}, \code{\link{bd}} }
+\seealso{ \code{\link{fitdAICrc}}, \code{\link{pureBirth}}, \code{\link{bd}} }
 \examples{
   data(agamids)
   agbtimes <- getBtimes(string = agamids)

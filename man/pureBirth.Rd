@@ -30,7 +30,7 @@ of Dr.  J. C. Willis. \emph{Phil. Trans. R. Soc. Lond. B} 213:21-87.
 }
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
-\seealso{ \code{\link{yule-n-rate}}, \code{\link{bd}}, \code{\link{yuleWindow}}, \code{\link{rvbd}} }
+\seealso{ \code{\link{yule-n-rate}}, \code{\link{bd}}, \code{\link{yuleWindow}} }
 \examples{
   data("plethodon")
   ### loads branching times for plethodontid salamander dataset

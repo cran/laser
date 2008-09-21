@@ -46,7 +46,7 @@ revealed from molecular phylogenies. \emph{Proc. Natl. Acad. Sci. USA} 89:8322-8
 }
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
-\seealso{ \code{\link{yule-n-rate}}, \code{\link{rvbd}}, \code{\link{fitdAICrc}} }
+\seealso{ \code{\link{yule-n-rate}}, \code{\link{fitdAICrc}} }
 \examples{
   data(plethodon)
   resX <- DDX(plethodon)

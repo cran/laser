@@ -8,8 +8,7 @@
   in AIC scores between the best rate-constant and rate-variable models.
 }
 \usage{
-fitdAICrc(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate", 
-                "rvbd"), ints = NULL)
+fitdAICrc(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate"), ints = NULL)
 }
 \arguments{
   \item{x}{ a numeric vector of branching times }
@@ -22,12 +21,14 @@ fitdAICrc(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate",
   
   \code{modelset} is a list of the rate-constant and rate-variable models to consider.  You should include 
   both rate-constant models (\code{\link{pureBirth}} and \code{\link{bd}}), as well as one or more candidate rate-variable
-  models.  Available options are \code{\link{DDX}}, \code{\link{DDL}}, \code{\link{yule2rate}}, \code{\link{rvbd}}, and \code{\link{yule3rate}}. 
+  models.  Available options are \code{\link{DDX}}, \code{\link{DDL}}, \code{\link{yule2rate}}, and \code{\link{yule3rate}}. 
   See full descriptions of each of these models this document.
   
   'ints' is used in determining the number of shift points to consider.  If 'ints = NULL' (the 
   default), the model will consider only observed branching times as possible shift points.  See
-  \code{\link{yule-n-rate}} for additional discussion of the 'ints' option.   
+  \code{\link{yule-n-rate}} for additional discussion of the 'ints' option.  ]
+  
+  Note that the rvbd function is no longer suppored ('rate variable birth death').
   
 }
 \value{

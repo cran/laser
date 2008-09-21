@@ -12,8 +12,8 @@ LASER
 \tabular{ll}{
 Package: \tab laser\cr
 Type: \tab Package\cr
-Version: \tab 2.0\cr
-Date: \tab 2008-05-19\cr
+Version: \tab 2.2\cr
+Date: \tab 2008-09-21\cr
 License: \tab GPL 2.0 ? \cr
 LazyLoad: \tab yes\cr
 }

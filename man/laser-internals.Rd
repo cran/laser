@@ -3,7 +3,6 @@
 \alias{yuleint2}
 \alias{combinations}
 \alias{Ibd}
-\alias{Irvbd}
 \alias{IDDX}
 \alias{IDDL}
 \alias{IpureBirth}

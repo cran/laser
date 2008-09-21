@@ -34,7 +34,7 @@ Nee, S., R. M. May, and P. H. Harvey.  1994b.  The reconstructed evolutionary pr
 }
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
-\seealso{ \code{bd}, \code{rvbd}, \code{pureBirth} }
+\seealso{ \code{bd}, \code{pureBirth} }
 \examples{
 
 #plot a likelihood surface for the plethodon dataset

@@ -1,5 +1,5 @@
 `fitdAICrc` <-
-function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate", "rvbd"), ints = NULL)
+function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate"), ints = NULL)
 {
   checkbasal(x)
   if (!is.numeric(x)) stop("object x not of class 'numeric'")
