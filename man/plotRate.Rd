@@ -28,8 +28,6 @@ plotRate(bt, pars)
 }
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
-
-}
 \seealso{
   \code{\link{fitSPVAR}}, \code{\link{fitEXVAR}}, \code{\link{fitBOTHVAR}}  
 }

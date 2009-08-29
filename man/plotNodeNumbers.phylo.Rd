@@ -30,6 +30,4 @@ plotNodeNumbers.phylo(phy)
 }
 \author{ Dan Rabosky \email{DLR32@cornell.edu} }
 
-
-}
 \keyword{ models }
