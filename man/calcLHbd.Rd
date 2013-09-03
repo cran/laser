@@ -32,7 +32,7 @@ Nee, S., E. C. Holmes, R. M. May, and P. H. Harvey.  1994a.  Extinction rates ca
 Nee, S., R. M. May, and P. H. Harvey.  1994b.  The reconstructed evolutionary process. \emph{Philos. Trans. R. Soc. Lond. B} 344:305-311.
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \seealso{ \code{bd}, \code{pureBirth} }
 \examples{

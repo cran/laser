@@ -8,15 +8,12 @@
   generated under a stochastic pure-birth (Yule) process using the program \emph{Phyl-O-Gen}
 }
 \usage{data(rtrees50)}
-\details{
-
-}
+%\details{}
 \source{
   Data generated using \emph{Phyl-O-Gen} (\url{http://evolve.zoo.ox.ac.uk/software/PhyloGen/main.html})
 }
 
 \examples{
 data(rtrees50)
-
 }
 \keyword{datasets}

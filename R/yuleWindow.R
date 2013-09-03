@@ -11,8 +11,7 @@ function(x, st1 = x[1], st2 = 0)
     return()
   }
   x <- rev(sort(x))
-  res <- list()
-  res <- yuleint2(x, st1, st2)
+  res <- as.list(yuleint2(x, st1, st2))
   if (is.na(res$LH))
   {
     print("Error.  Must be >= 1 speciation event within temporal window\n")

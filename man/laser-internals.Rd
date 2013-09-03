@@ -1,6 +1,7 @@
 \name{laser-internals}
 \alias{laser-internals}
 \alias{yuleint2}
+\alias{yuleint2New}
 \alias{combinations}
 \alias{Ibd}
 \alias{IDDX}
@@ -9,8 +10,6 @@
 \alias{Iyule2rate}
 \alias{Iyule3rate}
 \alias{checkbasal}
-\alias{getLambda.internal}
-\alias{splitEdgeMatrix}
 \alias{gsr}
 \alias{node.sons}
 \alias{getLikelihood.EXVAR}
@@ -38,6 +37,6 @@
 }
 
 
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \keyword{ internal }

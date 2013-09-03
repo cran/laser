@@ -48,10 +48,8 @@ Magallon, S., and M. J. Sanderson. 2001. Absolute diversification rates in angio
 Raup, D. M. 1985. Mathematical models of cladogenesis. Paleobiology 11:42-52.
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu.edu} }
 
-\seealso{ \code{\link{fitNDR_2rate}}, \code{\link{getTipdata}}, \code{\link{lambda.stem.ml}}, \code{\link{fitNDR_1rate}}}
-\examples{
-
-}
+\seealso{ \code{\link{lambda.stem.ml}} }
+%\examples{ }
 \keyword{ models }

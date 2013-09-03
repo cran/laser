@@ -16,8 +16,8 @@ fitdAICrc.batch <- function(x, observed=NULL, ...){
 		res[i, 2] <- rc2[[i]]$aic;
 		res[i, 3] <- rv1[[i]]$aic;
 		res[i, 4] <- rv2[[i]]$aic;
-		res[i, 5] <- rv3[[i]]$aic;
-		res[i, 6] <- min(rc1[[i]]$aic, rc2[[i]]$aic) - min(rv1[[i]]$aic, rv2[[i]]$aic, rv3[[i]]$aic);
+		res[i, 5] <- rv3[[i]]["AIC"];
+		res[i, 6] <- min(rc1[[i]]$aic, rc2[[i]]$aic) - min(rv1[[i]]$aic, rv2[[i]]$aic, rv3[[i]]["AIC"]);
 		
 	}
 	

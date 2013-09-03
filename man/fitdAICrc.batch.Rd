@@ -38,15 +38,13 @@ Rabosky, D. L. 2006.  Likelihood methods for inferring temporal shifts in
 diversification rates.  \emph{Evolution} 60:1152-1164. 
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 \note{ 
 	Make sure that you are using the exact same set of models for the real phylogeny and for the simulated 
 	phylogenies. If not, your results are invalid.
 
 }
 
-\examples{
-
-}
+% \examples{}
 \keyword{ models }
 \keyword{ htest }

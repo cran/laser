@@ -7,7 +7,6 @@
 }    
 \usage{
 plotNodeNumbers.phylo(phy)
-
 }
 
 
@@ -15,19 +14,9 @@ plotNodeNumbers.phylo(phy)
   \item{phy}{ a class 'phylo' phylogenetic tree}
 
 }
-\details{
-
-
-}
-\value{
-
-  
-}
-\references{ 
-
-
-
-}
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+%\details{}
+%\value{}
+%\references{ }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \keyword{ models }

@@ -1,2 +1,0 @@
-warblers <- scan('warblers.txt');
-

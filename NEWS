@@ -1,0 +1,26 @@
+      CHANGES in LASER VERSION 2.4-0 
+
+NEW FEATURES
+
+    o yuleNrate functions are much faster and use 
+      
+      much less memory           
+
+BUG FIXES
+
+    o mccrTest, birthdeathSim are adjusted to the new geiger version
+
+OTHER CHANGES
+
+    o some small changes to keep R CMD chech happy
+
+    o updated laser dependencies to geiger 1.99-3
+
+    o the internal functions Iyule, Iyule2rate, Iyule3rate have been deleted 
+
+    o some data files have been renamed 
+
+    o fitNDR_1rate and fitNDR_2rate functions are removed, as they are superseded by MEDUSA in Geiger 
+
+     
+

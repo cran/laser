@@ -29,7 +29,7 @@ getBtimes(file = NULL, string=NULL)
 }
 
 
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \seealso{ \code{\link{getBtimes.batch}} }
 \examples{

@@ -37,7 +37,7 @@ Nee, S.  2001.  Inferring speciation rates from phylogenies.
 \emph{Evolution} 55:661-668.
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 \note{
   This can be used in conjunction with other models in this package to 
   test \emph{a priori} hypotheses of rate variation.  If, for example, it was

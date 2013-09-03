@@ -22,7 +22,7 @@ gamStat(x, return.list=TRUE)
  If \code{return.list} = FALSE, it simply returns a single number, the gamma statistic 
 }
 \references{ Pybus, O. G., Harvey, P. H. 2000.  New uses for incomplete phylogenies. }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \examples{
   data("plethodon")

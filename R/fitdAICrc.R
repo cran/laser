@@ -11,9 +11,9 @@ function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate"), ints = N
   {
     temp <- 0
     if (modelset[i] != "yule2rate" && modelset[i] != "rbvd" && modelset[i] != "yule3rate")
-        method <- parse(text = paste("I", modelset[i], "(x)", sep = ""))
+        method <- parse(text = paste(modelset[i], "(x)", sep = ""))
     else
-        method <- parse(text = paste("I", modelset[i], "(x, ints)", sep = ""))
+        method <- parse(text = paste(modelset[i], "(x, ints)", sep = ""))
     temp <- suppressWarnings(eval(method))
     #temp <- eval(method)
 
@@ -33,13 +33,17 @@ function(x, modelset = c("pureBirth", "bd", "DDL", "DDX", "yule2rate"), ints = N
       res$mtype[i] <- "RV"}
     if (modelset[i] == "yule2rate") {res$params[i] = "r1, r2, ts"
       res$np[i] <- 3
-      res$mtype[i] <- "RV"}
+      res$mtype[i] <- "RV"
+      temp=as.list(temp)
+      }
     if (modelset[i] == "rvbd") {res$params[i] = "r1, r2, a, ts"
       res$np[i] <- 4
       res$mtype[i] <- "RV"}
     if (modelset[i] == "yule3rate"){res$params[i] = "r1, r2, r3, st1, st2"
       res$np[i] <- 5
-      res$mtype[i] <- "RV"}
+      res$mtype[i] <- "RV"
+      temp=as.list(temp)
+     }
     #fill res with estimated parameter values
 
     res$LH[i] <- temp$LH

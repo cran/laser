@@ -71,7 +71,10 @@ North American tiger beetles estimated from a dated mtDNA phylogenetic tree.
 Rabosky, D. L. 2006.  Likelihood methods for inferring temporal shifts in 
 diversification rates.  \emph{Evolution} 60:1152-1164. 
  }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ 
+Dan Rabosky \email{drabosky@umich.edu} 
+Klaus Schlep \email{klaus.schliep@gmail.com}
+}
 \note{ The total number of parameters for each model is equal to the number of speciation rates
 and shift points subject to optimization.  Thus, the \emph{yule3rate} model has 3 speciation rates and 2
 shift times, for a total of 5 parameters.  Strictly speaking, it may be inappropriate to treat the 

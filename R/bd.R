@@ -21,7 +21,7 @@ function(x, ai = c(0.1, 0.5, 0.9))
     temp <- suppressWarnings(optim(c(.2, ai[k]), mlbd))
     if (temp$par[2] <= 0)
     {
-      temp <- IpureBirth(x[2:length(x)])
+      temp <- pureBirth(x[2:length(x)])
       if (k == 1 || (k > 1 && temp$LH > res$LH))
       {
         res$LH <- temp$LH

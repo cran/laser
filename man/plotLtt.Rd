@@ -17,7 +17,7 @@ plotLtt(x)
   a plotting function with no return value
 }
 
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \examples{
 

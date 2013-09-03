@@ -69,7 +69,7 @@ fitBOTHVAR(bt, init=c(.3, .5, .1, .5))
 Rabosky, D. L. and I. J. Lovette. 2008. Explosive evolutionary radiations: decreasing speciation or increasing extinction through time? Evolution, doi:10.1111/j.1558-5646.2008.00409.x
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \examples{
 	data(warblers)

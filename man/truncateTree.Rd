@@ -36,7 +36,7 @@ truncateTree(x, omit.time = NULL, omit.nodes = NULL, batch = FALSE)
   a numeric vector of branching times, or if \samp{batch = TRUE}, a matrix
   of branching times.
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 \note{ 
   In the absence of dense phylogeographic sampling, it may be desirable to omit the final
   few nodes.

@@ -24,7 +24,7 @@ scaleBranchingtimes(x, basal = 100)
   a vector of scaled branching times
 }
 
-\author{ Dan Rabosky \email{ DLR32@cornell.edu } }
+\author{ Dan Rabosky \email{ drabosky@umich.edu } }
 
 \examples{
   data(plethodon)

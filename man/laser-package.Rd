@@ -12,23 +12,22 @@ LASER
 \tabular{ll}{
 Package: \tab laser\cr
 Type: \tab Package\cr
-Version: \tab 2.2\cr
-Date: \tab 2008-09-21\cr
-License: \tab GPL 2.0 ? \cr
+Version: \tab 2.4-0\cr
+Date: \tab 2013-05-05\cr
+License: \tab GPL 2.0 \cr
 LazyLoad: \tab yes\cr
 }
 
 }
 \author{
-	Dan Rabosky
-Maintainer: Dan Rabosky <DLR32@cornell.edu>
-
+Dan Rabosky
+Klaus Schliep
+Maintainer: Dan Rabosky <drabosky@umich.edu>
 }
 
 
 \keyword{ package }
-\seealso{
-}
+%\seealso{}
 \examples{
 	data(warblers)
 	fitSPVAR(warblers)

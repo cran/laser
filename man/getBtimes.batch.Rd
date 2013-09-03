@@ -38,7 +38,7 @@ getBtimes.batch(fname, basal = NULL)
   \samp{plotLtt(Res[5,])} would generate a log-lineages through time plot for the 5th tree in the file.
 }
 
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 \note{ 
   
   To analyze a single tree, see \code{\link{getBtimes}}

@@ -35,7 +35,7 @@ mccrTest(CladeSize, NumberMissing, NumberOfReps, ObservedGamma = NULL, fname=NUL
 Pybus, O. G. and Harvey, P. H. 2000. Testing macro-evolutionary models using incomplete molecular phylogenies. Proceedings of the Royal Society of London. Series B. Biological Sciences, 267, 2267-2272.
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \seealso{ \code{\link{gamStat}} }
 \examples{

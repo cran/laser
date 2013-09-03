@@ -66,13 +66,10 @@ diversification rates.  \emph{Evolution} 60:1152-1164.
 
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
-\note{ 
-
-
-}
-\seealso{ }
+%\note{}
+%\seealso{ }
 \examples{
 data(agamids)
 agbtimes <- getBtimes(string = agamids)

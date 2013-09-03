@@ -44,7 +44,7 @@ Nee, S., A. Mooers, and P. H. Harvey.  1992.  Tempo and mode of evolution
 revealed from molecular phylogenies. \emph{Proc. Natl. Acad. Sci. USA} 89:8322-8326.
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \seealso{ \code{\link{yule-n-rate}}, \code{\link{fitdAICrc}} }
 \examples{

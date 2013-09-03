@@ -20,7 +20,7 @@ yuleSim(ntaxa, nsets, lambda = 0.01)
    and m is size \code{ nsets }
 }
 
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 
 \examples{

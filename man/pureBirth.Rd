@@ -28,7 +28,7 @@ Yule, G. U. 1924. A mathematical theory of evolution based on the conclusions
 of Dr.  J. C. Willis. \emph{Phil. Trans. R. Soc. Lond. B} 213:21-87.
 
 }
-\author{ Dan Rabosky \email{DLR32@cornell.edu} }
+\author{ Dan Rabosky \email{drabosky@umich.edu} }
 
 \seealso{ \code{\link{yule-n-rate}}, \code{\link{bd}}, \code{\link{yuleWindow}} }
 \examples{
